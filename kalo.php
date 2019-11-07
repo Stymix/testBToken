@@ -1,10 +1,9 @@
-* PHP script, UTF-8 Unicode text, with very long lines
 <?php
 system('gem install lolcat');
 system('apt install toilet -y');
 system('clear');
-system("toilet --width 33 -f pagga -F border --gay 'Â Â earning prenium ' && toilet --width 30 -f term -F border --gay 'Â Â Â Â Â Â Â Â Â Â  SUBCRIBEÂ Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  Â  Earning PreniumÂ Â Â Â Â  'Â | lolcat&& toilet --width 34 -f term '[>] creator : Sami Gaming' -F gay | lolcat && toilet --width 34 -f term '[>] support : Gift_The_Gamer' | lolcat && toilet --width 34 -f term '[>] support : Anonymes' | lolcat && toilet --width 34 -f term '[>] support : Simon_Gaming' | lolcat");
-system("toilet --width 30 -f term -F border --gay 'Â   Â Â Â Â Â Â Â Â Â  BOTÂ Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  Â       APP_ KALO Â Â Â Â  'Â | lolcat");
+system("toilet --width 33 -f pagga -F border --gay '  earning prenium ' && toilet --width 30 -f term -F border --gay '           SUBCRIBE                   Earning Prenium      ' | lolcat&& toilet --width 34 -f term '[>] creator : Sami Gaming' -F gay | lolcat && toilet --width 34 -f term '[>] support : Gift_The_Gamer' | lolcat && toilet --width 34 -f term '[>] support : Anonymes' | lolcat && toilet --width 34 -f term '[>] support : Simon_Gaming' | lolcat");
+system("toilet --width 30 -f term -F border --gay '             BOT                        APP_ KALO      ' | lolcat");
 $login="https://api.kalo-app.com/api/v1/login";
 //Cheeck In
 $in="https://api.kalo-app.com/api/v1/user_check_in";
@@ -52,11 +51,11 @@ function chek($hash){
 for ($time=5;$time>-1;$time--){
   echo "\r                                         \r";
   echo "\r\033[0;37m".$time." \033[1;32mWait Chek-In \033[1;37m";
-  if ($time == 34 or $time == 29 or $time == 24 or $time == 19 or $time == 14 or $time == 9 or $time == 4){echo "â€¢";}
-  if ($time == 33 or $time == 28 or $time == 23 or $time == 18 or $time == 13 or $time == 8 or $time == 3){echo "â€¢â€¢";}
-  if ($time == 32 or $time == 27 or $time == 22 or $time == 17 or $time == 12 or $time == 7 or $time == 2){echo "â€¢â€¢â€¢";}
-  if ($time == 31 or $time == 26 or $time == 21 or $time == 16 or $time == 11 or $time == 6 or $time == 1){echo "â€¢â€¢â€¢â€¢";}
-  if ($time == 30 or $time == 25 or $time == 20 or $time == 15 or $time == 10 or $time == 5 or $time == 0){echo "â€¢â€¢â€¢â€¢â€¢\r";}
+  if ($time == 34 or $time == 29 or $time == 24 or $time == 19 or $time == 14 or $time == 9 or $time == 4){echo "•";}
+  if ($time == 33 or $time == 28 or $time == 23 or $time == 18 or $time == 13 or $time == 8 or $time == 3){echo "••";}
+  if ($time == 32 or $time == 27 or $time == 22 or $time == 17 or $time == 12 or $time == 7 or $time == 2){echo "•••";}
+  if ($time == 31 or $time == 26 or $time == 21 or $time == 16 or $time == 11 or $time == 6 or $time == 1){echo "••••";}
+  if ($time == 30 or $time == 25 or $time == 20 or $time == 15 or $time == 10 or $time == 5 or $time == 0){echo "•••••\r";}
   sleep(1);
 }
 }
@@ -86,11 +85,11 @@ echo "\033[0;37mSisa_Token \033[92m[\033[0;37m".$token."\033[92m]      \033[0;37
 for ($time=30;$time>-1;$time--){
   echo "\r                                         \r";
   echo "\r\033[0;37m".$time." \033[1;32mWait Luky_Draw \033[1;37m";
-  if ($time == 34 or $time == 29 or $time == 24 or $time == 19 or $time == 14 or $time == 9 or $time == 4){echo "â€¢";}
-  if ($time == 33 or $time == 28 or $time == 23 or $time == 18 or $time == 13 or $time == 8 or $time == 3){echo "â€¢â€¢";}
-  if ($time == 32 or $time == 27 or $time == 22 or $time == 17 or $time == 12 or $time == 7 or $time == 2){echo "â€¢â€¢â€¢";}
-  if ($time == 31 or $time == 26 or $time == 21 or $time == 16 or $time == 11 or $time == 6 or $time == 1){echo "â€¢â€¢â€¢â€¢";}
-  if ($time == 30 or $time == 25 or $time == 20 or $time == 15 or $time == 10 or $time == 5 or $time == 0){echo "â€¢â€¢â€¢â€¢â€¢\r";}
+  if ($time == 34 or $time == 29 or $time == 24 or $time == 19 or $time == 14 or $time == 9 or $time == 4){echo "•";}
+  if ($time == 33 or $time == 28 or $time == 23 or $time == 18 or $time == 13 or $time == 8 or $time == 3){echo "••";}
+  if ($time == 32 or $time == 27 or $time == 22 or $time == 17 or $time == 12 or $time == 7 or $time == 2){echo "•••";}
+  if ($time == 31 or $time == 26 or $time == 21 or $time == 16 or $time == 11 or $time == 6 or $time == 1){echo "••••";}
+  if ($time == 30 or $time == 25 or $time == 20 or $time == 15 or $time == 10 or $time == 5 or $time == 0){echo "•••••\r";}
   sleep(1);
 }
 }
@@ -253,11 +252,11 @@ while(True){
 for ($time=30;$time>-1;$time--){
   echo "\r                                         \r";
   echo "\r\033[0;37m".$time." \033[1;32mWait watching \033[1;37m";
-  if ($time == 34 or $time == 29 or $time == 24 or $time == 19 or $time == 14 or $time == 9 or $time == 4){echo "â€¢";}
-  if ($time == 33 or $time == 28 or $time == 23 or $time == 18 or $time == 13 or $time == 8 or $time == 3){echo "â€¢â€¢";}
-  if ($time == 32 or $time == 27 or $time == 22 or $time == 17 or $time == 12 or $time == 7 or $time == 2){echo "â€¢â€¢â€¢";}
-  if ($time == 31 or $time == 26 or $time == 21 or $time == 16 or $time == 11 or $time == 6 or $time == 1){echo "â€¢â€¢â€¢â€¢";}
-  if ($time == 30 or $time == 25 or $time == 20 or $time == 15 or $time == 10 or $time == 5 or $time == 0){echo "â€¢â€¢â€¢â€¢â€¢\r";}
+  if ($time == 34 or $time == 29 or $time == 24 or $time == 19 or $time == 14 or $time == 9 or $time == 4){echo "•";}
+  if ($time == 33 or $time == 28 or $time == 23 or $time == 18 or $time == 13 or $time == 8 or $time == 3){echo "••";}
+  if ($time == 32 or $time == 27 or $time == 22 or $time == 17 or $time == 12 or $time == 7 or $time == 2){echo "•••";}
+  if ($time == 31 or $time == 26 or $time == 21 or $time == 16 or $time == 11 or $time == 6 or $time == 1){echo "••••";}
+  if ($time == 30 or $time == 25 or $time == 20 or $time == 15 or $time == 10 or $time == 5 or $time == 0){echo "•••••\r";}
   sleep(1);
 }
 
@@ -312,4 +311,3 @@ chek($hash);
 
 
 ?>
-
